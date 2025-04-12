@@ -1,0 +1,6 @@
+name,email,phone,message
+Alice Johnson,alice@example.com,+255712345678,Hello from Alice!
+Bob Smith,bob@example.com,0712345678,Bob needs support.
+Charlie Brown,charlie@example.com,1234567890,Charlie checking in.
+Invalid Email,invalid-email,07123,Should be skipped due to email
+Missing Email,,+255789456123,Should be skipped due to missing email

@@ -1,0 +1,19 @@
+<div class="upload-container">
+  <div class="upload-card">
+    <h2>📤 Upload Contacts File</h2>
+    <p>
+      Upload a CSV or Excel file containing name, email, and message fields.
+    </p>
+
+    <label for="fileInput" class="file-label">
+      <span> Choose File</span>
+      <input id="fileInput" type="file" (change)="onFileSelected($event)" />
+    </label>
+    &nbsp;
+    <button class="upload-btn" (click)="onUpload()" [disabled]="!selectedFile">
+      Upload Now
+    </button>
+  </div>
+</div>
+
+<router-outlet />
